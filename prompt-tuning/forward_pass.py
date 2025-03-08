@@ -8,7 +8,7 @@ from utils import load_json_file, call_model, save_responses, StructuredOutput
 from langchain.output_parsers import PydanticOutputParser
 
 # Set your OpenAI API key
-openai.api_key = "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"
+#here
 
 # Set arguments
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
