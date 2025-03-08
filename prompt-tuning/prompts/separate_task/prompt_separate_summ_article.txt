@@ -1,0 +1,81 @@
+You are translating from natural language text to knowledge graph RDF triplets. For that you need to identify factual information in the text and translate it into triplets. You should not hallucinate or invent anything—only extract the facts that are explicitly stated. Do not include any annotations, URLs, ontology references, or extra formatting. Your output must contain ONLY plain triplets in the exact format:
+
+(SUBJECT, PREDICATE, OBJECT)
+Extract the triplets solely from the given text and do not use any external knowledge or references. Do not write any text rather than triplets themselves. No links, No references, No questions, only triplets (exactly in the format shown above!)
+
+Here are some examples:
+
+Example 1:
+Text: "Barack Hussein Obama II (born August 4, 1961) is an American politician who served as the 44th President of the United States from January 20, 2009 to January 20, 2017."
+Triplets:
+(Barack Obama, presidentOf, United States)
+(Barack Obama, bornOn, August 4 1961)
+
+Example 2:
+Text: "It's not intended to be a safety video. But this stomach-churning clip of a longboarder crashing downhill at high speed certainly serves as a warning to wear a helmet. Footage shows the skater confidently sailing down a concrete slope in Santa Monica, Los Angeles, before he loses balance and falls headfirst. For a short moment he scrapes along the ground on his stomach. He then rolls over several times. Finally he comes to a stop and as he lies on his side, he clutches his head in pain. The skater's friends then rush over to check if he's okay. Going, going: This stomach-churning clip of a longboarder crashing downhill at high speed certainly serves as a warning to wear a helmet Gone! Footage shows the skater confidently sailing down a concrete slope in Santa Monica, Los Angeles, before he loses balance and falls headfirst Painful: For a short moment he scrapes along the floor on his stomach As they survey the damage, blood is seen on the ground and pouring from the boarder's face. The filmer later wrote on the video-sharing site NewsFlare that the injury required a total of seven stitches. 'We were very happy that he only received minor injuries, being road rash and two deep cuts in his face,' the cameraman added. The incident took place on April 1 on a sunny day in the morning. Luckily there was no one in the skater's path and he was the only one injured. Ouch: Finally he comes to a standstill and as he lies on his side, he clutches his head in apparent pain Bloody: The filmer later revealed that the injury required a total of seven stitches Warning for next time: Luckily there was no one in the skater's path and he was the only one injured"
+Triplets:
+(Video, serveAs, Warning)
+(Footage, show, Skater)
+(Longboarder, crasheAt, Downhill)
+(Skater, lose, Balance)
+(Skater, scrape, groundOnStomach)
+(Skater, rollOver, multipleTimes)
+(Pain, isIn, Head)
+(Friends, check, Skater)
+(Blood, isOn, ground)
+(Blood, pourFrom, Face)
+(Filmer, reporteOn, NewsFlare)
+(Injury, require, Stitches)
+(Cameraman, commenteOn, Injuries)
+(Incident, occurreOn, April 1)
+(Incident, occurreIn, Morning)
+(Skater, is, Injured)
+
+Example 3:
+Text: "Elon Musk announced on July 15, 2022 that SpaceX would begin launching the Starship rocket for interplanetary missions."
+Triplets:
+(Elon Musk, announce, Starship Launch)
+(SpaceX, launch, Starship Rocket)
+(Starship Rocket, intendFor, Interplanetary Missions)
+
+Example 4:
+Text: "(CNN)Kayahan, one of Turkey's best-loved singers and songwriters, died of cancer Friday at the age of 66. He had performed most recently in Istanbul on Valentine's Day. The performer, who was also an accomplished guitarist, was first diagnosed with cancer in 1990, the year he competed in the Eurovision Song Contest, and the year before he released the album that ignited his career. The cancer returned in 2005 and then again in 2014, Turkey's semiofficial Anadolu Agency reported. He died Friday in a hospital in Istanbul, five days after his 66th birthday. 'We are in grief over losing Kayahan, who contributed to Turkish music with countless compositions and marked a generation with his songs,' Prime Minister Ahmet Davutoglu tweeted. The singer, whose full name was Kayahan Acar, was born in Izmir province, in western Turkey on March 29, 1949. He grew up in Ankara, Turkey's capital, before moving to Istanbul. In 1990, he competed in the Eurovision Song Contest, finishing 17th. The following year he released an album titled 'I Made a Vow,' which catapulted him to prominence. Though he recorded nearly 20 albums, that one would remain his most popular. His final album was released in 2007. Other artists recorded his material throughout his career. Videos available online show a vibrant performer with a thick shock of dark hair as he accompanies himself on guitar and croons in a clear tenor. Kayahan was best known for his love songs. More recent videos show a frailer performer, seated and without a guitar, but still clearly glorying in the joy of singing a song."
+Triplets:
+(Kayahan, occupation, Singer)
+(Kayahan, occupation, Songwriter)
+(Kayahan, diedOf, Cancer)
+(Kayahan, diedAtAge, 66)
+(Kayahan, performedIn, Istanbul)
+(Kayahan, performedOn, Valentine's Day)
+(Kayahan, diagnosedWith, Cancer)
+(Kayahan, competedIn, Eurovision Song Contest 1990)
+(Kayahan, finishedPosition, 17)
+(Kayahan, releasedAlbum, I Made A Vow)
+(I Made A Vow, albumReleaseYear, 1991)
+(Cancer, returnedIn, 2005)
+(Cancer, returnedIn, 2014)
+(Anadolu Agency, reported, Cancer Returned In 2005 And 2014)
+(Kayahan, diedIn, Hospital In Istanbul)
+(Kayahan, diedAfter, Five Days After His 66Th Birthday)
+(Kayahan, contributedTo, Turkish Music)
+(Kayahan, bornIn, Izmir Province)
+(Kayahan, bornOn, March 29 1949)
+(Kayahan, grewUpIn, Ankara)
+(Kayahan, movedTo, Istanbul)
+(Kayahan, recordedAlbumsCount, Nearly 20)
+(Album I Made A Vow, isMostPopularAlbumOf, Kayahan)
+(Kayahan, finalAlbumReleased, 2007)
+(Kayahan, knownFor, Vibrant Performance)
+(Kayahan, knownFor, Guitar Accompanying)
+(Kayahan, knownFor, Voice)
+(Kayahan, bestKnownFor, Love Songs)
+
+Example 5:
+Text: "professor james marshall said if they were able to recreate a fraction of the honeybees ability they would have made ` tremendous advances ' the artificial brain is being created by the green brain project ."
+Triplets:
+(Honeybees Ability Recriaction, advance, Green Brain Project)
+(Green Brain Project, create, Artificial Brain)
+
+Now, translate the following text into RDF triplets:
+
+Text:

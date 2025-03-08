@@ -1,0 +1,128 @@
+Here are some examples:
+
+Example 1:
+Text:
+Article: It's not intended to be a safety video. But this stomach-churning clip of a longboarder crashing downhill at high speed certainly serves as a warning to wear a helmet. Footage shows the skater confidently sailing down a concrete slope in Santa Monica, Los Angeles, before he loses balance and falls headfirst. For a short moment he scrapes along the ground on his stomach. He then rolls over several times. Finally he comes to a stop and as he lies on his side, he clutches his head in pain. The skater's friends then rush over to check if he's okay. Going, going: This stomach-churning clip of a longboarder crashing downhill at high speed certainly serves as a warning to wear a helmet Gone! Footage shows the skater confidently sailing down a concrete slope in Santa Monica, Los Angeles, before he loses balance and falls headfirst Painful: For a short moment he scrapes along the floor on his stomach As they survey the damage, blood is seen on the ground and pouring from the boarder's face. The filmer later wrote on the video-sharing site NewsFlare that the injury required a total of seven stitches. 'We were very happy that he only received minor injuries, being road rash and two deep cuts in his face,' the cameraman added. The incident took place on April 1 on a sunny day in the morning. Luckily there was no one in the skater's path and he was the only one injured. Ouch: Finally he comes to a standstill and as he lies on his side, he clutches his head in apparent pain Bloody: The filmer later revealed that the injury required a total of seven stitches Warning for next time: Luckily there was no one in the skater's path and he was the only one injured
+Summary: the incident took place on a sunny day in santa monica , los angeles .
+Triplets:
+[(Video, serveAs, Warning)
+(Footage, show, Skater)
+(Longboarder, crasheAt, Downhill)
+(Skater, lose, Balance)
+(Skater, scrape, Ground on Stomach)
+(Skater, rollOver, Multiple Times)
+(Pain, isIn, Head)
+(Friends, check, Skater)
+(Blood, isOn, ground)
+(Blood, pourFrom, Face)
+(Filmer, reporteOn, News Flare)
+(Injury, require, Stitches)
+(Cameraman, commenteOn, Injuries)
+(Incident, occurreOn, April 1)
+(Incident, occurreIn, Morning)
+(Incident, occurreIn, Sunny Day)
+(Incident, occurreIn, Santa Monica)
+(Skater, is, Injured)]
+<summary>
+[(Incident, occurreIn, Sunny Day)
+(Incident, occurreIn, Santa Monica)]
+
+Example 2:
+Text:
+Article: (CNN)Kayahan, one of Turkey's best-loved singers and songwriters, died of cancer Friday at the age of 66. He had performed most recently in Istanbul on Valentine's Day. The performer, who was also an accomplished guitarist, was first diagnosed with cancer in 1990, the year he competed in the Eurovision Song Contest, and the year before he released the album that ignited his career. The cancer returned in 2005 and then again in 2014, Turkey's semiofficial Anadolu Agency reported. He died Friday in a hospital in Istanbul, five days after his 66th birthday. 'We are in grief over losing Kayahan, who contributed to Turkish music with countless compositions and marked a generation with his songs,' Prime Minister Ahmet Davutoglu tweeted. The singer, whose full name was Kayahan Acar, was born in Izmir province, in western Turkey on March 29, 1949. He grew up in Ankara, Turkey's capital, before moving to Istanbul. In 1990, he competed in the Eurovision Song Contest, finishing 17th. The following year he released an album titled 'I Made a Vow,' which catapulted him to prominence. Though he recorded nearly 20 albums, that one would remain his most popular. His final album was released in 2007. Other artists recorded his material throughout his career. Videos available online show a vibrant performer with a thick shock of dark hair as he accompanies himself on guitar and croons in a clear tenor. Kayahan was best known for his love songs. More recent videos show a frailer performer, seated and without a guitar, but still clearly glorying in the joy of singing a song.
+Summary: he died of cancer friday at the age of 66 .
+Triplets:
+[(Kayahan, occupation, Singer)
+(Kayahan, occupation, Songwriter)
+(Kayahan, diedOf, Cancer)
+(Kayahan, diedAtAge, 66)
+(Kayahan, diedOn, Friday)
+(Kayahan, performedIn, Istanbul)
+(Kayahan, performedOn, Valentine's Day)
+(Kayahan, diagnosedWith, Cancer)
+(Kayahan, competedIn, Eurovision Song Contest 1990)
+(Kayahan, finishedPosition, 17)
+(Kayahan, releasedAlbum, I Made A Vow)
+(I Made A Vow, albumReleaseYear, 1991)
+(Cancer, returnedIn, 2005)
+(Cancer, returnedIn, 2014)
+(Anadolu Agency, reported, Cancer Returned In 2005 And 2014)
+(Kayahan, diedIn, Hospital In Istanbul)
+(Kayahan, diedAfter, Five Days After His 66Th Birthday)
+(Kayahan, contributedTo, Turkish Music)
+(Kayahan, bornIn, Izmir Province)
+(Kayahan, bornOn, March 29 1949)
+(Kayahan, grewUpIn, Ankara)
+(Kayahan, movedTo, Istanbul)
+(Kayahan, recordedAlbumsCount, Nearly 20)
+(Album I Made A Vow, isMostPopularAlbumOf, Kayahan)
+(Kayahan, finalAlbumReleased, 2007)
+(Kayahan, knownFor, Vibrant Performance)
+(Kayahan, knownFor, Guitar Accompanying)
+(Kayahan, knownFor, Voice)
+(Kayahan, bestKnownFor, Love Songs)]
+<summary>
+[(Kayahan, diedOf, Cancer)
+(Kayahan, diedAtAge, 66)
+(Kayahan, diedOn, Friday)]
+
+Example 3:
+Text:
+Article: Greater Manchester Police tweeted a warning about wasting time after a holidaymaker walked into a station to complain about his trip. The 44-year-old from Oldham decided had just returned from Algeria and wanted to complain about the temperatures he experienced during his holiday. Police tweeted the anecdote after the man tried to lodge an official complaint at the Great Manchester Police Chadderton division. Great Manchester Police Chadderton division revealed a man lodged a complaint that the weather on his holiday was 'too hot' The incident was shared by the police press office on its Facebook page, along with a warning that members of the public should not waste police time. There was a warning that such an offence can carry a maximum punishment of six months' imprisonment and/or a fine. A spokesman for Greater Manchester Police told MailOnline Travel: 'The male was advised that this was not a police problem.' Following the post being shared on Facebook, there were mixed reactions to the man's actions. Janine Gamblen wrote: 'Some people really are just stupid,' while Sarah Edwards added: 'Only in Oldham.' The 44-year-old man had recently returned to the UK from a holiday in Algeria (file photo) 'The mind boggles,' commented Tracy Ayre while Suzi Force believes the man should have been punished, saying: 'Give him a holiday in a cell, maybe he will think twice next time!' However, Joanne Parker made light of the incident writing: 'Haha funny...would love to have seen the police face.' The current temperatures in Algeria is 28C, and this has remained fairly constant over the last week or two. Temperatures are set to peak at 25C over the next three days in England, however the north will see slightly lower temperatures than the south. It's not known if the Oldham man travelled to the Sahara Desert in Algeria, where he would undoubtedly have been 'hot'
+Summary: warning that such an offence can carry a maximum punishment of six months ' imprisonment and/or a fine .
+Triplets:
+[(Greater Manchester Police, tweet, Warning About Wasting Time),
+(Holidaymaker, walkInto, Station),
+(Holidaymaker, complainAbout, Trip),
+(44-Year-Old Man, isFrom, Oldham),
+(44-Year-Old Man, returnFrom, Algeria),
+(44-Year-Old Man, experience, Temperatures During Holiday),
+(Police, tweet, Anecdote),
+(Man, try, Lodge Official Complaint),
+(Official Complaint, lodgedAt, Great Manchester Police Chadderton Division),
+(Great Manchester Police Chadderton Division, reveal, Man Lodged Complaint),
+(Man, lodgeComplaint, Weather Too Hot),
+(Police Press Office, share, Incident On Facebook),
+(Warning, state, Public Should Not Waste Police Time),
+(Offence, carryMaximumPunishment, Six Months Imprisonment And/Or Fine),
+(Spokesman, tell, Male Was Advised Not A Police Problem),
+(Male, beAdvised, Not A Police Problem),
+(Post, shareOn, Facebook),
+(Public, have, Mixed Reactions To Man's Actions),
+(Janine Gamblen, write, Some People Are Just Stupid),
+(Sarah Edwards, add, Only In Oldham),
+(44-Year-Old Man, returnTo, UK),
+(44-Year-Old Man, haveHolidayIn, Algeria),
+(Tracy Ayre, comment, The Mind Boggles),
+(Suzi Force, believe, Man Should Be Punished),
+(Suzi Force, suggest, Give Him A Holiday In A Cell),
+(Joanne Parker, write, Haha Funny Would Love To Have Seen The Police Face),
+(Current Temperatures In Algeria, be, 28C),
+(Temperatures In Algeria, remainConstant, Last Week Or Two),
+(Temperatures In England, setToPeakAt, 25C),
+(North England, see, Lower Temperatures Than South),
+(Oldham Man, travelTo, Sahara Desert),
+(Oldham Man, be, Hot)]
+<summary>
+[(Offence, carryMaximumPunishment, Six Months Imprisonment And/Or Fine)]
+
+Example 4:
+Text:
+Article: Greater Manchester Police tweeted a warning about wasting time after a holidaymaker walked into a station to complain about his trip. The 44-year-old from Oldham decided had just returned from Algeria and wanted to complain about the temperatures he experienced during his holiday. Police tweeted the anecdote after the man tried to lodge an official complaint at the Great Manchester Police Chadderton division. Great Manchester Police Chadderton division revealed a man lodged a complaint that the weather on his holiday was 'too hot' The incident was shared by the police press office on its Facebook page, along with a warning that members of the public should not waste police time. There was a warning that such an offence can carry a maximum punishment of six months' imprisonment and/or a fine. A spokesman for Greater Manchester Police told MailOnline Travel: 'The male was advised that this was not a police problem.' Following the post being shared on Facebook, there were mixed reactions to the man's actions. Janine Gamblen wrote: 'Some people really are just stupid,' while Sarah Edwards added: 'Only in Oldham.' The 44-year-old man had recently returned to the UK from a holiday in Algeria (file photo) 'The mind boggles,' commented Tracy Ayre while Suzi Force believes the man should have been punished, saying: 'Give him a holiday in a cell, maybe he will think twice next time!' However, Joanne Parker made light of the incident writing: 'Haha funny...would love to have seen the police face.' The current temperatures in Algeria is 28C, and this has remained fairly constant over the last week or two. Temperatures are set to peak at 25C over the next three days in England, however the north will see slightly lower temperatures than the south. It's not known if the Oldham man travelled to the Sahara Desert in Algeria, where he would undoubtedly have been 'hot'
+Summary: warning that such an offence can carry a maximum punishment of six months ' imprisonment and/or a fine .
+Triplets:
+[(Kim Clark, isFrom, Kinross)
+(Kim Clark, diedAfter, Hit By Car)
+(Kim Clark, diedOn, Tuesday)
+(Kim Clark, diedAt, South Street Milnathort)
+(Family Of Kim Clark, feel, Upset)
+(Family Of Kim Clark, state, She Will Be Greatly Missed)
+(Officers, say, Inquiries Ongoing)]
+<summary>
+[(Man, diedAfter, Hit By Car)
+(Man, isFrom, Kinross)
+(Family Of Man, feel, Devastated)]
+
+Now, translate the following pair of texts into RDF triplets:
+
+Text:

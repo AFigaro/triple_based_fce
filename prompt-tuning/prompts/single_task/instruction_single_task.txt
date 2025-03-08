@@ -1,0 +1,21 @@
+You are provided with two texts: an Article and a Summary. Perform the following tasks:
+
+Extract Triplets from the Article:
+
+Read the Article and identify all factual information units.
+Extract each fact as an RDF triplet in the exact format: (SUBJECT, RELATION, OBJECT).
+Normalize the elements:
+Entities (subject and object): Convert to canonical Title Case and remove extraneous punctuation.
+Relations: Use a consistent, canonical phrasing (e.g., always "bornOn").
+Do not invent or modify details; include only facts explicitly stated in the Article.
+
+Then analyze the Summary and, for each Article triplet:
+If the Summary has the same facutal information unit as an Article, use the Article’s triplet to represent it, without any modifications. Make sure it is absolutely identical.
+If the Summary shows the same entities with different relationships—or the same relationship with a differing entity—create a new triplet reflecting that factual information unit.
+Ensure that summary triplets are never left empty when the corresponding factual information is provided in the summary.
+Ensure the same normalization rules apply.
+Make sure you separate the summary away from the article, double-check that they are separated!
+Output Guidelines:
+
+Output only the triplets, exactly as (SUBJECT, PREDICATE, OBJECT), with no extra annotations, URLs, or ontology references.
+If no factual information is found in a text, output empty brackets [] for that section.

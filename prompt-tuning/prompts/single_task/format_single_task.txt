@@ -1,0 +1,7 @@
+Output Format:
+Your final output must be exactly in the following format:
+
+[ (Article Triplet 1)\n(Article Triplet 2)\n(Article Triplet 3), ... ]\n<summary>\n[(Summary Triplet 1)\n(Summary Triplet 2)\n(Summary Triplet 3), ... ]
+That is, first output a list of article triplets (in square brackets, with each triplet formatted as (SUBJECT, PREDICATE, OBJECT) and separated by commas), then the literal string <summary>, then a list of summary triplets in the same format.
+The output must contain only triplets. Any additional text that deviates from this specified format will result in severe punishment!
+Never forget to put <summary> between Article and Summary triplet sets, this is the most important part of your output!
